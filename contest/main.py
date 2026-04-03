@@ -1,6 +1,6 @@
 def array_diff(a: list, b: list) -> list:
     """Решение для Задачи 1"""
-    pass
+    return [item for item in a if item not in b]
 
 def sum_pairs(nums: list, sum: int) -> list:
     """Решение для Задачи 2"""
